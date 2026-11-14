@@ -1,5 +1,4 @@
 # Semantic Segmentation Benchmark: Empirical Analysis of Multi-Scale Dilated Receptive Fields in U-Net Architectures
-**Course:** Advanced Computer Vision (CS107203CS) — Unit 3  
 **Candidate Name:** Anjali Tiwari  
 **Candidate Email:** anjali2006.tiwari@gmail.com  
 **Roll Number:** 23115007  
