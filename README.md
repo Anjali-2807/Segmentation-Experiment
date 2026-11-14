@@ -1,8 +1,8 @@
 # Reproducible Semantic Segmentation Experiment
-## Advanced Computer Vision (CS107203CS) — Unit 3 | Assignment B
 
-**Author:** Anjali Tiwari (`anjali2006.tiwari@gmail.com`)  
-**Academic Context:** Advanced Computer Vision (CS107203CS), Unit 3 Practical Evaluation  
+**Author:** Anjali Tiwari  
+**Roll Number:** 23115007  
+**Email:** anjali2006.tiwari@gmail.com  
 **Date:** November 2026  
 **Deterministic Seed:** `42` (Enforced across Python, NumPy, PyTorch, and CuDNN)
 
@@ -10,7 +10,7 @@
 
 ## 1. Executive Summary & Objective
 
-This repository contains the complete implementation, training logs, evaluation pipeline, and visual evidence for **Assignment B: Build a Reproducible Segmentation Experiment**.
+This repository contains the complete implementation, training logs, evaluation pipeline, and visual evidence for a **Reproducible Semantic Segmentation Experiment**.
 
 The primary objective is to execute a rigorous, scientifically controlled semantic segmentation study under strict reproducibility constraints:
 1. Establish a formal **Data Contract** on an annotated public dataset with documented class IDs, boundary masking, deterministic splits, and synchronized image-mask spatial transforms.
