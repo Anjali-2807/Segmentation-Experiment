@@ -1,0 +1,61 @@
+{
+    "evaluation_dataset": "Oxford-IIIT Pet Semantic Segmentation",
+    "test_samples": 45,
+    "resolution": "128x128",
+    "baseline": {
+        "mechanism": "baseline",
+        "parameters_total": 3312562,
+        "parameters_trainable": 3312562,
+        "mIoU": 99.67,
+        "pixel_accuracy": 99.91,
+        "per_class_iou": {
+            "Background": 99.89,
+            "Pet": 99.44
+        },
+        "per_class_dice": {
+            "Background": 99.95,
+            "Pet": 99.72
+        },
+        "latency": {
+            "mean_latency_ms": 13.39,
+            "std_latency_ms": 0.22,
+            "p95_latency_ms": 13.79,
+            "fps": 74.7,
+            "batch_size": 1,
+            "resolution": "128x128",
+            "device": "cpu",
+            "num_runs": 100
+        }
+    },
+    "controlled_variant_dilation": {
+        "mechanism": "dilation",
+        "parameters_total": 2657202,
+        "parameters_trainable": 2657202,
+        "mIoU": 99.76,
+        "pixel_accuracy": 99.94,
+        "per_class_iou": {
+            "Background": 99.92,
+            "Pet": 99.6
+        },
+        "per_class_dice": {
+            "Background": 99.96,
+            "Pet": 99.8
+        },
+        "latency": {
+            "mean_latency_ms": 13.18,
+            "std_latency_ms": 0.19,
+            "p95_latency_ms": 13.47,
+            "fps": 75.9,
+            "batch_size": 1,
+            "resolution": "128x128",
+            "device": "cpu",
+            "num_runs": 100
+        }
+    },
+    "delta": {
+        "mIoU_gain": 0.09,
+        "pet_iou_gain": 0.16,
+        "param_diff": -655360,
+        "latency_diff_ms": -0.21
+    }
+}

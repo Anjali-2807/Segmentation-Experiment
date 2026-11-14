@@ -1,0 +1,26 @@
+# Experiment Environment & Hardware Specifications
+# Author: Anjali Tiwari (CS107203CS - Unit 3)
+# Project: Reproducible Segmentation Experiment
+
+[Hardware Architecture]
+Platform: macOS (Darwin 24.3.0)
+Architecture: arm64 (Apple Silicon)
+Device: CPU-only execution (MPS/CUDA disabled for deterministic reproducible benchmarking)
+
+[Runtime & Core Dependencies]
+Python: 3.13.2
+torch: 2.8.0
+torchvision: 0.23.0
+numpy: 2.4.4
+pillow: 11.3.0
+scipy: 1.16.2
+
+[Deterministic Seeding Configuration]
+Global Seed: 42
+torch.manual_seed: 42
+torch.cuda.manual_seed_all: 42
+np.random.seed: 42
+random.seed: 42
+torch.backends.cudnn.deterministic: True
+torch.backends.cudnn.benchmark: False
+

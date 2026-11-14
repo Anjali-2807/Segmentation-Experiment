@@ -1,0 +1,6 @@
+python==3.13.2
+torch==2.8.0
+torchvision==0.23.0
+numpy==2.4.4
+pillow==11.3.0
+scipy==1.16.2

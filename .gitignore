@@ -1,0 +1,19 @@
+# Checkpoints
+*last_model.pth
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / Editor artifacts
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+venv/
+env/
+.env
