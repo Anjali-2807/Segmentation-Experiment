@@ -1,3 +1,6 @@
+# Submission archive
+*.zip
+
 # Checkpoints
 *last_model.pth
 
